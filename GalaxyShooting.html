@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>SaturnVoyager</title> 
+    <meta charset="UTF-8">
+    <style>
+        #space {
+            width: 800px; height: 800px;
+            touch-action: none;
+        }
+        #START {
+            color: forestgreen;
+            position: absolute;
+            text-align:center;
+            font-size: 20pt;
+            left: 240px;
+            top: 260px;
+        }        
+    </style>
+    <script type="text/javascript" src="./main.js" charset="UTF-8"></script>
+</head>
+<body onload="init()">
+    <canvas id="space" width="800" height="800"></canvas>
+    <img id="rockImg" src="texture/rock.png" style="display:none" />
+    <img id="scope" src="texture/ship.png" style="display:none" />
+    <img id="crackImg" src="texture/crack.png" style="display:none" />
+    <img id="heart1" src="texture/heart1.png" style="display:none" />
+    <img id="heart2" src="texture/heart2.png" style="display:none" />
+    <p id="START" onclick="go()">GAME START<br/><br/><br/><br/>click here or press 's' key</p>
+</body>
+</html>
